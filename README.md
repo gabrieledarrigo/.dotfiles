@@ -30,6 +30,7 @@ Now you need to install:
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [Spaceship](https://github.com/denysdovhan/spaceship-prompt)
+- [Powerline fonts](https://github.com/powerline/fonts)
 
 ### Visual Studio Code
 
