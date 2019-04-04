@@ -2,7 +2,7 @@
 export ZSH="/home/gdarrigo/.oh-my-zsh"
 
 # Theme
-ZSH_THEME="spaceship"
+ZSH_THEME="agnoster"
 
 # Plugins
 plugins=(

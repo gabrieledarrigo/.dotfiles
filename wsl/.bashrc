@@ -2,6 +2,9 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+# if zsh...
+bash -c zsh
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -115,9 +118,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-# if zsh...
-chsh -s $(which zsh)
 
 # nvm
 export NVM_DIR="$HOME/.nvm"

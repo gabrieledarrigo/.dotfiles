@@ -13,7 +13,7 @@
 ### Zsh
 
 First install [brew](https://brew.sh/).
-Then install zsh:
+Then it's zsh's turn:
 
 ```
 $ brew install zsh
@@ -29,8 +29,9 @@ Now you need to install:
 
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-- [Spaceship](https://github.com/denysdovhan/spaceship-prompt)
 - [Powerline fonts](https://github.com/powerline/fonts)
+- [Spaceship](https://github.com/denysdovhan/spaceship-prompt) on MacOS
+- [Agnoster](https://github.com/agnoster/agnoster-zsh-theme) on Windows (wsl [doesn't support emoji](https://github.com/Microsoft/console/issues/190))
 
 ### Visual Studio Code
 
