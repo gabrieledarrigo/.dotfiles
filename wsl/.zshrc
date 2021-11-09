@@ -28,3 +28,11 @@ export LS_COLORS
 
 # Aliases
 alias ll="ls -la"
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Some warm welcome
+if [ -x /usr/games/lolcat -a -x /usr/games/cowsay ]; then
+  cowsay Hello Gabri | lolcat
+fi
