@@ -33,7 +33,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Some warm welcome
 if [ -x /usr/games/lolcat -a -x /usr/games/cowsay ]; then
-  cowsay Hello Gabri | lolcat
+  sort -R curiosities.txt | head -n 1 | cowsay | lolcat
 fi
 
 # Load Starship
